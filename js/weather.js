@@ -9,7 +9,7 @@ function getBackground() {
       .then(json => {
         const weather = json;
         console.log(weather)
-        if (weather.current) {
+        if (weather) {
           const weatherCurrent = weather.current;
         }
       });
