@@ -2,11 +2,16 @@
     margin-bottom: 20px;
 }
   
-.toDo {
-    font-size: 22px;
+.to-do {
+   position: relative;
 }
-  
-.toDo__button {
-    margin-right: 10px;
+
+.delete_box {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    border: none;
     cursor: pointer;
 }
